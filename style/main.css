@@ -1,0 +1,176 @@
+/*
+*   Website 10 "information technology law"
+*   Desgined by MAYANK
+*   css : style
+*/
+
+/* #970505 */
+*
+{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+/* html
+{
+    scroll-snap-type: y mandatory;
+}
+#data, header, footer
+{
+   scroll-snap-align: start;
+} */
+/*
+    body style
+*/
+body
+{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+main
+{
+    width: 100%;
+    display:grid;
+    grid-template-rows: 100vh auto 100vh;
+}
+.center
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+/*
+    CSS of top and bottom h1 and right
+*/
+h1
+{
+    height: 10%;
+    font:bold 25px arial;
+    background:#9c0101;
+}
+.right
+{
+    font:18px arial;
+    height: 10%;
+    background:#9c0101;
+}
+/*
+    style of social_icon class
+*/
+.social_icon
+{
+    height: 20%;
+}
+.icon
+{
+    width: 50px;
+    height: auto;
+    border:2px solid transparent;
+}
+.icon:hover
+{
+    border-color:#9c0101;
+}
+/*
+    style of social link class
+*/
+.social_link
+{
+    height: 70%;
+}
+.link
+{
+    display: grid;
+}
+h2
+{
+    padding:20px;
+    font:bold 25px calibri;
+    text-decoration: underline;
+}
+a
+{
+    padding: 25px;
+    font:16px calibri;
+    color:#000;
+    
+}
+a:hover
+{
+    color:#9c0101;
+    text-decoration: underline;
+}
+/*
+    style of the frame
+*/
+.frame
+{
+    width: 80%;
+    height: 90%;
+    margin: auto;
+}
+h3
+{
+    padding: 20px;
+    font:bold 18px arial;
+}
+p
+{
+    padding:20px;
+    font:16px calibri;
+}
+.btn
+{
+    line-height: 100px;
+    padding:15px 30px;
+    background:#9c0101;
+}
+.btn:hover
+{
+    color:#fff;
+}
+.img
+{
+    padding: 10px;
+    width:30%;
+    height: auto;
+    object-fit: cover;
+    border:5px inset #999;
+}
+/*
+    style of data id
+*/
+#data
+{
+    width: 80%;
+    margin:auto;
+    min-height: 100vh;
+}
+details
+{
+    background:#eee;
+    border:1px solid #fff;
+}
+summary
+{
+    padding:20px;
+    font:20px arial;
+    background: #9c0101;
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+}
+summary:nth-of-type(2)
+{
+    background: #141414;
+}
+summary:first-child
+{
+    font:16px arial;
+}
+summary:last-child
+{
+    font:16px calibri;
+}
